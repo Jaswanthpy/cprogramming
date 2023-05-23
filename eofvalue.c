@@ -7,4 +7,5 @@ int main(void) {
         printf("%d\n", result);
     }
     printf("EOF is '%d'\n", result);
+    return 0;
 }
