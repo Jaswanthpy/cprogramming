@@ -1,6 +1,5 @@
 # include <stdio.h>
 
-main()
-{
-    printf("hello world\n");
+int main(void) {
+    printf("Hello World\n");
 }
