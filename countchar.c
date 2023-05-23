@@ -18,6 +18,6 @@ int main(void) {
             ++nl;
         }
     }
-    printf("%d blanks, %d tabs, %d newlines", blanks, tabs, nl);
+    printf("%d blanks, %d tabs, %d newlines\n", blanks, tabs, nl);
     return 0;
 }
