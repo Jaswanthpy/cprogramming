@@ -9,7 +9,7 @@ int main(void) {
 
     printf("Fahrenheit\tCelsius\n");
     fahr = (double)lower;
-    while (fahr <= double(upper))
+    while (fahr <= (double)upper)
     {
         celcius = (5.0 / 9.0) * (fahr - 32.0);
         printf("%3.0f\t\t%6.1f\n", fahr, celcius);
