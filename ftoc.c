@@ -8,7 +8,7 @@ int main(void) {
     int step = 20;
 
     printf("Fahrenheit\tCelsius\n");
-    fahr = (double)lower
+    fahr = (double)lower;
     while (fahr <= double(upper))
     {
         celcius = (5.0 / 9.0) * (fahr - 32.0);
